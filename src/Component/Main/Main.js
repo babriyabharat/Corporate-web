@@ -211,22 +211,22 @@ function Main() {
                             <p>Combine text with sounds, pictures, graphics<br /> and video clips.</p>
                         </div>
                         <div className='team-member d-flex'>
-                            <div className='team-member-info col-3'>
+                            <div className='team-member-info col-3 col-sm-6'>
                                 <img src={Team1} alt='Team1' />
                                 <h4>Bernarr Dominik</h4>
                                 <p>Founder</p>
                             </div>
-                            <div className='team-member-info col-3'>
+                            <div className='team-member-info col-3 col-sm-6'>
                                 <img src={Team2} alt='Team2' />
                                 <h4>Fabiana Capmany</h4>
                                 <p>Account Manager</p>
                             </div>
-                            <div className='team-member-info col-3'>
+                            <div className='team-member-info col-3 col-sm-6' >
                                 <img src={Team3} alt='Team3' />
                                 <h4>Alicia Stanger</h4>
                                 <p>Designer</p>
                             </div>
-                            <div className='team-member-info col-3'>
+                            <div className='team-member-info col-3 col-sm-6 '>
                                 <img src={Team4} alt='Team4' />
                                 <h4>Anton Brownstein</h4>
                                 <p>Developer</p>
@@ -274,10 +274,10 @@ function Main() {
                         <h1>Latest From Blog</h1>
                     </div>
                     <div className='blog-info d-flex text-center'>
-                        <div className='blog-contant col-4'>
+                        <div className='blog-contant col-4 col-sm-6'>
                             <img src={Blog1} alt='Blog1' />
                         </div>
-                        <div className='blog-contant col-4'>
+                        <div className='blog-contant col-4 col-sm-6'>
                             <img src={Blog2} alt='Blog2' />
                         </div>
                         <div className='blog-contant col-4'>
